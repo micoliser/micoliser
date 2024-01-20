@@ -1,4 +1,4 @@
-<div align="center">
+hi<div align="center">
 
   <img src="https://readme-typing-svg.herokuapp.com?font=comic+sans+ms&size=32&duration=2000&pause=10000&color=7F5AF0&width=435&lines=👋+Hi%2C+I'm+Samuel+Iwelumo" alt="👋 Hi, I'm Samuel Iwelumo" />
 
@@ -63,7 +63,7 @@
 </div>
 
 - :brain: I'm interested in Fullstack Software Engineering and DevOps
-- 🌱 I’m studied Software engineering [@alx-africa](https://www.alxafrica.com). [Certificate](https://intranet.alxswe.com/certificates/PJ3encrT6x)
+- 🌱 I studied Software engineering [@alx-africa](https://www.alxafrica.com). [Certificate](https://intranet.alxswe.com/certificates/PJ3encrT6x)
 - 👯 I'm looking to collaborate on open source projects and backend application development ([Resume](https://drive.google.com/file/d/1HmPGurhQ2qHBj_g1-HCo6-P1_7-KC2_a/view?usp=drive_link))
 - ⚡ My latest Project, [SCHub](https://www.schub.me/explore) / [Repo](https://github.com/micloiser/SCHub)
 
