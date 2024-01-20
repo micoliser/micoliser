@@ -6,7 +6,7 @@
 
 <div align="center">
   
-  [![Visitors](https://visitcount.itsvg.in/api?id=micoliser&label=Profile%20Views&color=9&icon=9&pretty=false)](https://visitcount.itsvg.in) [![wakatime](https://wakatime.com/badge/user/8da20c6c-73ae-4717-aadd-61aadf68772c.svg?style=plastic&labelColor=16161A&color=7F5AF0)](hhttps://wakatime.com/@8da20c6c-73ae-4717-aadd-61aadf68772c)
+  ![Visitors](https://visitcount.itsvg.in/api?id=micoliser&label=Profile%20Views&color=9&icon=9&pretty=false) [![wakatime](https://wakatime.com/badge/user/8da20c6c-73ae-4717-aadd-61aadf68772c.svg?style=plastic&labelColor=16161A&color=7F5AF0)](https://wakatime.com/@8da20c6c-73ae-4717-aadd-61aadf68772c)
 
 </div>
 
