@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Iwelumo Samuel | Portfolio Website</title>
+    <meta name="author" content="Iwelumo Samuel Chibuzor" />
+    <meta
+      name="description"
+      content="This is my portfolio website showing my skills and recent programming projects."
+    />
+    <meta
+      name="keywords"
+      content="portfolio, devops, backend, software, engineer, showcase, programming, projects, samuel, iwelumo, about, skills, experience, education, contact, alx, github, engineering, python, javascript, django, c, react, flask, mysql, digitalocean, shell, bash, nginx, haproxy, certbot, html, css, jinja, jquery, markdown, ubuntu, focal, get.tech, namecheap, schub"
+    />
+    <meta name="language" content="english" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        font-size: 1.15rem;
+      }
+    </style>
+    <script
+      src="https://kit.fontawesome.com/3f2dbd4340.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="docBody">
+      <nav class="navbar bg-light navbar-expand-md sticky-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><p>Iwelumo S.C.</p></a>
+
+          <!-- Toggle button (for mobile) -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa fa-angle-double-down"></i>
+          </button>
+
+          <!-- Navbar items -->
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  href="#aboutme"
+                  class="nav-link"
+                  rel="About"
+                  aria-label="Some information about me"
+                  >About Me</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#skills"
+                  class="nav-link"
+                  rel="Some Skills"
+                  aria-label="Some of my skills"
+                  >Skills</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#education"
+                  class="nav-link"
+                  rel="Educational Background"
+                  aria-label="Some of my skills"
+                  >Education</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#projects"
+                  class="nav-link"
+                  rel="Some Project"
+                  aria-label="Some of my important projects"
+                  >Projects</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#contact"
+                  class="nav-link"
+                  rel="My Contacts"
+                  aria-label="Channels to contact me through"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="text-end">
+              <button
+                id="darkModeToggle"
+                class="btn btn-dark justify-content-between rounded-pill"
+              >
+                <i class="fa fa-sun"></i>
+                <i class="fa fa-circle-o ps-2"></i>
+                <i class="fa fa-moon d-none"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <section id="aboutme" class="section mb-5">
+        <div class="container">
+          <div class="row text-center">
+            <div
+              class="col-full topics display-4 mt-4 border-bottom border-danger"
+            >
+              <p>ABOUT ME</p>
+            </div>
+          </div>
+          <div class="row mt-4 justify-content-center">
+            <div class="col-11 col-md-8 text-center">
+              <p class="display-6"><strong>Iwelumo Samuel Chibuzor</strong></p>
+              <div class="fs-5 fs-sm-8">
+                <p>
+                  I am a Full Stack Software Engineering graduate from
+                  <span title="Africa Leadership Xperience">ALX</span> Africa
+                  and a Computer Science graduate from The West African Union University.
+                  I am passionate about building software that solves real world problems.
+                  I build web applications, console
+                  applications, C programs and I also setup servers and deploy web aplications.
+                </p>
+                <p>
+                  You can check out some of my recent
+                  <a
+                    href="#portfolio"
+                    class="text-decoration-none link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                    >projects <i class="fa fa-link"></i></a
+                  >. Need something built or would like to have a chat? Reach
+                  out to me on any of the following.
+                </p>
+                <div class="row mt-3">
+                  <div class="col-2">
+                    <a
+                      href="mailto:samueliwelumo@gmail.com?subject=[Important]:%20Build%20or%20chat"
+                      target="_blank"
+                      class="link-dark"
+                    >
+                      <i class="fa fa-envelope fa-2x"></i>
+                    </a>
+                  </div>
+                  <div class="col-2">
+                    <a
+                      href="https://wa.me/2348128336815?text=Hi%20Samuel%2C%20I%20am%20John%20Doe%20and%20I%20saw%20your%20portfolio%20website"
+                      target="_blank"
+                      class="link-dark"
+                    >
+                      <i class="fa fa-whatsapp fa-2x"></i>
+                    </a>
+                  </div>
+                  <div class="col-2">
+                    <a
+                      href="https://www.linkedin.com/in/samuel-iwelumo-8a43a6219/"
+                      target="_blank"
+                      class="link-dark"
+                    >
+                      <i class="fa fa-linkedin fa-2x"></i>
+                    </a>
+                  </div>
+                  <div class="col-2">
+                    <a
+                      href="https://github.com/micoliser"
+                      target="_blank"
+                      class="link-dark"
+                    >
+                      <i class="fa fa-github fa-2x"></i>
+                    </a>
+                  </div>
+                  <div class="col-2">
+                    <a
+                      href="https://twitter.com/micoliser"
+                      target="_blank"
+                      class="link-dark"
+                    >
+                      <i class="fa fa-twitter fa-2x"> </i
+                    ></a>
+                  </div>
+                </div>
+                <br>
+                <p class="mt-3 mb-0">While (!coding) I'm usually:</p>
+                <ul class="text-start">
+                  <li>Meeting new people in the tech communitty</li>
+                  <li>Reading</li>
+                  <li>Studying</li>
+                  <li>Watching movies</li>
+                  <li>Playing video games</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <img
+                src="./profile.jpg"
+                alt="Profile image"
+                class="rounded img-fluid float-start"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="education" class="section mb-5">
+        <div class="container">
+          <div class="row text-center">
+            <div
+              class="col-full topics display-4 mt-4 border-bottom border-primary"
+            >
+              <p>EDUCATION</p>
+            </div>
+            <div class="row mt-4">
+              <div class="col-full display-6">
+                <p>African Leadership Experience Africa (ALX)</p>
+              </div>
+              <div class="row my-3 mx-0">
+                <div class="col-5 px-0"><p>Software Engineering</p></div>
+                <div class="col-2">
+                  <i class="fa fa-plus-circle fa-spin"></i>
+                </div>
+                <div class="col-5 px-0"><p>Backend Development</p></div>
+              </div>
+              <div class="col-full">
+                <p>
+                  I enrolled in a full stack software engineering course which I gained
+                  valuable and important knowledge on software architecture, design,
+                  development and maintenance. I also learned and improved my knowledge on programming
+                  languages like C, Python and Javascript
+                </p>
+                <p><b>Graduated:</b> October 2023</p>
+                <p>
+                  <b>Certificate:</b>
+                  <a
+                    href="https://intranet.alxswe.com/certificates/PJ3encrT6x"
+                    target="_blank"
+                  >
+                    ALX <i class="fa fa-certificate"></i>
+                  </a>
+                </p>
+                <div class="row text-center justify-content-around">
+                  <button
+                    class="col-3 btn btn-outline-dark"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target=".outline-collapse"
+                    aria-expanded="false"
+                    aria-controls="outline"
+                  >
+                    Outline
+                  </button>
+                </div>
+                <div class="row collapse outline-collapse" id="outline">
+                  <div class="col-6">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">
+                        <a href="https://github.com/micoliser/alx-zero_day"
+                          target="_blank" >Git & Command line editors<i class="fa fa-link"></i
+                        ></a>
+                      </li>
+                      <li class="list-group-item">
+                        <a
+                          href="https://github.com/micoliser/alx-system_engineering-devops"
+                          target="_blank" >Shell, command line interface and devops<i
+                            class="fa fa-link"
+                          ></i
+                        ></a>
+                      </li>
+                      <li class="list-group-item">
+                        <a
+                          href="https://github.com/micoliser/alx-low_level_programming"
+                          target="_blank" >Low Level Programming - C<i class="fa fa-link"></i
+                        ></a>
+                      </li>
+                      <li class="list-group-item">
+                        <a href="https://github.com/micoliser/simple_shell"
+                          target="_blank" >Low Level Programming - C - Simple Shell<i
+                            class="fa fa-link"
+                          ></i
+                        ></a>
+                      </li>
+                      <li class="list-group-item">
+                        <a
+                          href="https://github.com/micoliser/alx-system_engineering-devops"
+                          target="_blank" >Networking and web infrastructure<i
+                            class="fa fa-link"
+                          ></i
+                        ></a>
+                      </li>
+                      <li class="list-group-item">
+                        <a
+                          href="https://github.com/micoliser/sorting_algorithms"
+                          target="_blank" >Sorting Algorithms<i class="fa fa-link"></i
+                        ></a>
+                      </li>
+                      <li class="list-group-item">
+                        <a href="https://github.com/micoliser/binary_trees"
+                          target="_blank" >Binary Trees<i class="fa fa-link"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-6">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">
+                        <a
+                          href="https://github.com/micoliser/alx-higher_level_programming"
+                          target="_blank" >Higher Level Programming - Python<i
+                            class="fa fa-link"
+                          ></i
+                        ></a>
+                      </li>
+                      <li class="list-group-item">
+                        <a
+                          href="https://github.com/micoliser/alx-backend-javascript"
+                          target="_blank" >Higher Level Programming - JavaScript and ES6<i
+                            class="fa fa-link"
+                          ></i
+                        ></a>
+                      </li>
+                      <li class="list-group-item">
+                        <a
+                          href="https://github.com/micoliser/alx-backend-storage"
+                          target="_blank" >Higher Level Programming - SQL<i
+                            class="fa fa-link"
+                          ></i
+                        ></a>
+                      </li>
+                      <li class="list-group-item">
+                        <a
+                          href="https://github.com/micoliser/alx-backend-storage"
+                          target="_blank" >Higher Level Programming - Redis<i
+                            class="fa fa-link"
+                          ></i
+                        ></a>
+                      </li>
+                      <li class="list-group-item">
+                        <a
+                          href="https://github.com/micoliser/alx-backend-storage"
+                          target="_blank" >Higher Level Programming - MongoDB<i
+                            class="fa fa-link"
+                          ></i
+                        ></a>
+                      </li>
+                      <li class="list-group-item">
+                        <a
+                          href="https://github.com/micoliser/alx-higher_level_programming"
+                          target="_blank" >Test Driven Development - Python<i
+                            class="fa fa-link"
+                          ></i
+                        ></a>
+                      </li>
+                      <li class="list-group-item">
+                        <a
+                          href="https://github.com/micoliser/Fix_My_Code_Challenge"
+                          target="_blank" >Code Review<i class="fa fa-link"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col-full display-6">
+                <p>West African Union University, Cotonou, Benin Republic</p>
+              </div>
+              <div class="row my-3 mx-0">
+                <div class="col-5 px-0"><p>Bachelor of Science</p></div>
+                <div class="col-2">
+                  <i class="fa fa-plus-circle fa-spin"></i>
+                </div>
+                <div class="col-5 px-0"><p>Computer Science</p></div>
+              </div>
+              <div class="col-full">
+                <p>
+                  I studied Computer Science where I learnt the fundamentals
+                  of computer engineering, information technology and software engineering.
+                </p>
+                <p><b>Graduated:</b> July 2020</p>
+                <div class="row text-center justify-content-around">
+                  <button
+                    class="col-3 btn btn-outline-dark"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target=".outlineb-collapse"
+                    aria-expanded="false"
+                    aria-controls="outlineb"
+                  >
+                    Outline
+                  </button>
+                </div>
+                <div class="row collapse outlineb-collapse" id="outlineb">
+                  <div class="col-7">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">
+                        Fundamentals of Information and Communication Technology
+                      </li>
+                      <li class="list-group-item">
+                        Low level programming
+                      </li>
+                      <li class="list-group-item">
+                        Assembly language
+                      </li>
+                      <li class="list-group-item">
+                        Artificial Intelligence
+                      </li>
+                      <li class="list-group-item">
+                        Middle level programming
+                      </li>
+                      <li class="list-group-item">
+                        High level programming
+                      </li>
+                      <li class="list-group-item">OOP Concepts</li>
+                    </ul>
+                  </div>
+                  <div class="col-5">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Data structures and Algorithms</li>
+                      <li class="list-group-item">Database and Storage techniques</li>
+                      <li class="list-group-item">Computer Engineering</li>
+                      <li class="list-group-item">Operating systems</li>
+                      <li class="list-group-item">Mathematical methods</li>
+                      <li class="list-group-item">Data design and analytics</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="skills" class="section mb-5">
+        <div class="container">
+          <div class="row text-center">
+            <div
+              class="col-full topics display-4 mt-4 border-bottom border-warning"
+            >
+              <p>SKILLS</p>
+            </div>
+          </div>
+          <div class="row mt-4 text-center">
+            <div class="col-6">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Python</li>
+                <li class="list-group-item">C</li>
+                <li class="list-group-item">JavaScript</li>
+                <li class="list-group-item">React</li>
+                <li class="list-group-item">Flask</li>
+                <li class="list-group-item">MySQL</li>
+                <li class="list-group-item">SQLAlchemy</li>
+                <li class="list-group-item">Nginx</li>
+                <li class="list-group-item">HAProxy</li>
+                <li class="list-group-item">Google Cloud Console</li>
+                <li class="list-group-item">EJS</li>
+                <li class="list-group-item">Test Driven Development</li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">DigitalOcean containers</li>
+                <li class="list-group-item">Webserver management</li>
+                <li class="list-group-item">DNS management</li>
+                <li class="list-group-item">Console application development</li>
+                <li class="list-group-item">Django</li>
+                <li class="list-group-item">Flasgger</li>
+                <li class="list-group-item">Shell scripting</li>
+                <li class="list-group-item">Technical writing</li>
+                <li class="list-group-item">MongoDB</li>
+                <li class="list-group-item">NodeJs</li>
+                <li class="list-group-item">ExpressJs</li>
+                <li class="list-group-item">Google APIs</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="section mb-5">
+        <div class="container">
+          <div class="row text-center">
+            <div
+              class="col-full topics display-4 mt-4 border-bottom border-success"
+            >
+              <p>PROJECTS</p>
+            </div>
+            <div class="container-fluid my-4">
+              <div class="row justify-content-around">
+                <div class="card px-0 m-2 col-10 col-md-5 col-xl-3">
+                  <img
+                    src="./SCHub.png"
+                    class="card-img-top"
+                    alt="SCHub Repo Banner"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title"><p>SCHub</p></h4>
+                    <div
+                      class="collapse show schub-collapse my-2"
+                      id="schubDesc"
+                    >
+                      <p class="card-text">
+                        SCHub is a webservice that transforms the manner in
+                        which institutions, like universities and colleges,
+                        handle data storage for students, teachers, departments
+                        and courses in a secure and user-friendly setting.
+                      </p>
+                    </div>
+                    <div class="row text-center justify-content-around">
+                      <a
+                        href="#"
+                        class="col-3 btn btn-outline-dark"
+                        >Demo</a
+                      >
+                      <button
+                        class="col-3 btn btn-outline-dark"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target=".schub-collapse"
+                        aria-expanded="false"
+                        aria-controls="schubDesc schubTech"
+                      >
+                        Tech
+                      </button>
+                      <a
+                        href="https://github.com/micoliser/schub"
+                        class="col-3 btn btn-outline-dark"
+                        target="_blank"
+                        >Repo</a
+                      >
+                    </div>
+                    <div class="row collapse schub-collapse" id="schubTech">
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Python</li>
+                        <li class="list-group-item">React JS</li>
+                        <li class="list-group-item">MySQL</li>
+                        <li class="list-group-item">Html</li>
+                        <li class="list-group-item">Flask</li>
+                        <li class="list-group-item">MySQL</li>
+                        <li class="list-group-item">Digital Ocean</li>
+                        <li class="list-group-item">Nginx</li>
+                        <li class="list-group-item">HAProxy</li>
+                        <li class="list-group-item">Certbot</li>
+                        <li class="list-group-item">Shell</li>
+                        <li class="list-group-item">CSS</li>
+                        <li class="list-group-item">Namecheap</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="card px-0 m-2 col-10 col-md-5 col-xl-3">
+                  <img
+                    src="./libz.png"
+                    class="card-img-top"
+                    alt="LibZ Repo Banner"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title"><p>LibZ</p></h4>
+                    <div class="collapse show libz-collapse my-2" id="libzDesc">
+                      <p class="card-text">
+                        LibZ is a user oriented public library that leverages
+                        the power of Google's Drive API to provide an
+                        application that allows users to upload, download and
+                        share books publicly over the web.
+                      </p>
+                    </div>
+                    <div class="row text-center justify-content-around">
+                      <a
+                        href="#"
+                        class="col-3 btn btn-outline-dark"
+                        >Demo</a
+                      >
+                      <button
+                        class="col-3 btn btn-outline-dark"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target=".libz-collapse"
+                        aria-expanded="false"
+                        aria-controls="libzDesc libzTech"
+                      >
+                        Tech
+                      </button>
+                      <a
+                        href="https://github.com/micoliser/libz"
+                        class="col-3 btn btn-outline-dark"
+                        target="_blank"
+                        >Repo</a
+                      >
+                    </div>
+                    <div class="row collapse libz-collapse" id="libzTech">
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Python</li>
+                        <li class="list-group-item">React JS</li>
+                        <li class="list-group-item">MySQL</li>
+                        <li class="list-group-item">Html</li>
+                        <li class="list-group-item">Flask</li>
+                        <li class="list-group-item">MySQL</li>
+                        <li class="list-group-item">Google Cloud Console</li>
+                        <li class="list-group-item">Shell</li>
+                        <li class="list-group-item">CSS</li>
+                        <li class="list-group-item">Google Drive API</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="card px-0 m-2 col-10 col-md-5 col-xl-3">
+                  <img
+                    src="./blogpost.png"
+                    class="card-img-top border-bottom border-dark"
+                    alt="SCHub Repo Banner"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title"><p>Blog Post</p></h4>
+                    <div class="collapse show blog-collapse my-2" id="blogDesc">
+                      <p class="card-text">
+                        Blog post is a simple mini blog application that allows users to login,
+                        create, edit and delete blog posts in a friendly interface and setting
+                      </p>
+                    </div>
+                    <div class="row text-center justify-content-around">
+                      <a
+                        href="#"
+                        class="col-3 btn btn-outline-dark"
+                        >Demo</a
+                      >
+                      <button
+                        class="col-3 btn btn-outline-dark"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target=".blog-collapse"
+                        aria-expanded="false"
+                        aria-controls="blogDesc blogTech"
+                      >
+                        Tech
+                      </button>
+                      <a
+                        href="https://github.com/micoliser/Blog-post"
+                        class="col-3 btn btn-outline-dark"
+                        target="_blank"
+                        >Repo</a
+                      >
+                    </div>
+                    <div class="row collapse blog-collapse" id="blogTech">
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">JavaScript</li>
+                        <li class="list-group-item">NodeJs</li>
+                        <li class="list-group-item">MongoDB</li>
+                        <li class="list-group-item">Html</li>
+                        <li class="list-group-item">Mongoose</li>
+                        <li class="list-group-item">EJS</li>
+                        <li class="list-group-item">Express</li>
+                        <li class="list-group-item">PassportJS</li>
+                        <li class="list-group-item">HAProxy</li>
+                        <li class="list-group-item">Certbot</li>
+                        <li class="list-group-item">Shell</li>
+                        <li class="list-group-item">CSS</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="card px-0 m-2 col-10 col-md-5 col-xl-3">
+                  <img
+                    src="./Gnu-bash-logo.png"
+                    class="card-img-top border-bottom p-2 border-dark"
+                    alt="Gnu Bash Logo"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title"><p>Simple Shell</p></h4>
+                    <div
+                      class="collapse show shell-collapse my-2"
+                      id="shellDesc"
+                    >
+                      <p class="card-text">
+                        This project is a simple unix command interpreter built
+                        using C. It can run some simple commands using direct
+                        calls to system functions.
+                      </p>
+                    </div>
+                    <div class="row text-center justify-content-around">
+                      <button class="col-3 btn btn-outline-dark" disabled>
+                        Demo
+                      </button>
+                      <button
+                        class="col-3 btn btn-outline-dark"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target=".shell-collapse"
+                        aria-expanded="false"
+                        aria-controls="shellDesc shellTech"
+                      >
+                        Tech
+                      </button>
+                      <a
+                        href="https://github.com/Jesulayomy/simple_shell"
+                        class="col-3 btn btn-outline-dark"
+                        target="_blank"
+                        >Repo</a
+                      >
+                    </div>
+                    <div class="row collapse shell-collapse" id="shellTech">
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">C</li>
+                        <li class="list-group-item">Shell Scripting</li>
+                        <li class="list-group-item">Ubuntu 20.04</li>
+                        <li class="list-group-item">Markdown</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="card px-0 m-2 col-10 col-md-5 col-xl-3">
+                  <img
+                    src="./keeper.png"
+                    class="card-img-top border-bottom p-2 border-dark"
+                    alt="Keeper app Logo"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title"><p>Note Keeping App</p></h4>
+                    <div class="collapse show calc-collapse my-2" id="calcDesc">
+                      <p class="card-text">
+                        This project is a simple note keeping app built using
+                        React JS and NodeJS. It allows users to create, edit and delete
+                        notes.
+                      </p>
+                    </div>
+                    <div class="row text-center justify-content-around">
+                      <button class="col-3 btn btn-outline-dark" disabled>
+                        Demo
+                      </button>
+                      <button
+                        class="col-3 btn btn-outline-dark"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target=".calc-collapse"
+                        aria-expanded="false"
+                        aria-controls="calcDesc calcTech"
+                      >
+                        Tech
+                      </button>
+                      <a
+                        href="https://github.com/Jesulayomy/simple_shell"
+                        class="col-3 btn btn-outline-dark"
+                        target="_blank"
+                        >Repo</a
+                      >
+                    </div>
+                    <div class="row collapse calc-collapse" id="calcTech">
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">JavaScript</li>
+                        <li class="list-group-item">NodeJs</li>
+                        <li class="list-group-item">MongoDB</li>
+                        <li class="list-group-item">React</li>
+                        <li class="list-group-item">Mongoose</li>
+                        <li class="list-group-item">Express</li>
+                        <li class="list-group-item">Shell</li>
+                        <li class="list-group-item">CSS</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="card px-0 m-2 col-10 col-md-5 col-xl-3">
+                  <img src="./hbnb.png" class="card-img-top border-bottom border-dark" alt="SCHub Repo Banner" />
+                  <div class="card-body">
+                    <h4 class="card-title">
+                      <p>Hbnb</p>
+                    </h4>
+                    <div class="collapse show hbnb-collapse my-2" id="hbnbDesc">
+                      <p class="card-text">
+                        HBNB is a clone of the AirBnB project done for Holberton
+                        School and ALX Africa. It uses an API framework to serve
+                        content for a rental service company.
+                      </p>
+                    </div>
+                    <div class="row text-center justify-content-around">
+                      <a href="https://www.schub.me/explore" class="col-3 btn btn-outline-dark" target="_Blank">Demo</a>
+                      <button class="col-3 btn btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target=".hbnb-collapse"
+                        aria-expanded="false" aria-controls="hbnbDesc hbnbTech">
+                        Tech
+                      </button>
+                      <a href="https://github.com/jesulayomy/schub" class="col-3 btn btn-outline-dark" target="_blank">Repo</a>
+                    </div>
+                    <div class="row collapse hbnb-collapse" id="hbnbTech">
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Python</li>
+                        <li class="list-group-item">JQuery</li>
+                        <li class="list-group-item">MySQL</li>
+                        <li class="list-group-item">Html</li>
+                        <li class="list-group-item">Flask</li>
+                        <li class="list-group-item">MySQL</li>
+                        <li class="list-group-item">Jinja</li>
+                        <li class="list-group-item">Nginx</li>
+                        <li class="list-group-item">HAProxy</li>
+                        <li class="list-group-item">Certbot</li>
+                        <li class="list-group-item">Shell</li>
+                        <li class="list-group-item">CSS</li>
+                        <li class="list-group-item">Get.Tech domain</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+      </section>
+      <section id="contact" class="container-fluid text-center bg-dark">
+        <div class="container text-center">
+          <div class="row">
+            <div
+              class="text-light col-full topics display-4 mt-4 border-bottom border-warning"
+            >
+              CONTACT
+            </div>
+          </div>
+
+          <div class="row p-3">
+            <div class="row text-light">
+              <p>
+                Want to leave a message or contact me for a project? Use any of
+                the following channels.
+              </p>
+            </div>
+            <div class="col-2">
+              <a
+                href="mailto:samueliwelumo@gmail.com"
+                target="_blank"
+                class="link-light"
+              >
+                <i class="fa fa-envelope fa-2x"></i>
+              </a>
+            </div>
+            <div class="col-2">
+              <a
+                href="https://wa.me/2348128336815?text=Hi%20Samuel%2C%20I%20am%20John%20Doe%20and%20I%20saw%20your%20portfolio%20website"
+                target="_blank"
+                class="link-dark"
+              >
+                <i class="fa fa-whatsapp fa-2x"></i>
+              </a>
+            </div>
+            <div class="col-2">
+              <a
+                href="https://www.linkedin.com/in/samuel-iwelumo-8a43a6219/"
+                target="_blank"
+                class="link-light"
+              >
+                <i class="fa fa-linkedin fa-2x"></i>
+              </a>
+            </div>
+            <div class="col-2">
+              <a
+                href="https://github.com/micoliser"
+                target="_blank"
+                class="link-light"
+              >
+                <i class="fa fa-github fa-2x"></i>
+              </a>
+            </div>
+            <div class="col-2">
+              <a
+                href="https://twitter.com/micoliser"
+                target="_blank"
+                class="link-light"
+              >
+                <i class="fa fa-twitter fa-2x"> </i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <script>
+        const docBody = document.getElementById('docBody');
+        const darkModeToggle = document.getElementById('darkModeToggle');
+        const moonIcon = darkModeToggle.querySelector('.fa-moon');
+        const sunIcon = darkModeToggle.querySelector('.fa-sun');
+        const circleIcon = darkModeToggle.querySelector('.fa-circle-o');
+        const paragraphs = document.querySelectorAll('p');
+        const lLists = document.querySelectorAll('li');
+        const anchors = document.querySelectorAll('a');
+        const uLists = document.querySelectorAll('ul');
+        const navBar = document.querySelector('nav');
+        const iFa = document.querySelectorAll('i');
+        const cardBodies = document.querySelectorAll('div.card');
+        const butTons = document.querySelectorAll('button.btn-outline-dark');
+        const aBtns = document.querySelectorAll('a.btn-outline-dark');
+
+        //  text-bg-dark Check if the user's preference is set to dark mode
+        const prefersDarkMode = window.matchMedia(
+          '(prefers-color-scheme: dark)'
+        ).matches;
+
+        // Set the initial icon based on the user's preference
+        if (prefersDarkMode) {
+          toggleDarkMode();
+        }
+
+        // Function to toggle dark mode
+        function toggleDarkMode() {
+          docBody.classList.toggle('bg-dark');
+          document.body.classList.toggle('dark-mode');
+          darkModeToggle.classList.toggle('btn-dark');
+          darkModeToggle.classList.toggle('btn-secondary');
+          moonIcon.classList.toggle('d-none');
+          circleIcon.classList.toggle('pe-2');
+          circleIcon.classList.toggle('ps-2');
+          sunIcon.classList.toggle('d-none');
+          navBar.classList.toggle('bg-dark');
+
+          paragraphs.forEach((paragraph) => {
+            paragraph.classList.toggle('text-light');
+          });
+          iFa.forEach((paragraph) => {
+            paragraph.classList.toggle('fa-inverse');
+          });
+          butTons.forEach((butTon) => {
+            butTon.classList.toggle('btn-outline-light');
+            butTon.classList.toggle('btn-outline-dark');
+          });
+          aBtns.forEach((aBtn) => {
+            aBtn.classList.toggle('btn-outline-light');
+            aBtn.classList.toggle('btn-outline-dark');
+          });
+          cardBodies.forEach((cardBody) => {
+            cardBody.classList.toggle('text-bg-dark');
+          });
+          anchors.forEach((anchor) => {
+            anchor.classList.toggle('text-light');
+          });
+          lLists.forEach((lList) => {
+            lList.classList.toggle('bg-dark');
+            lList.classList.toggle('text-light');
+          });
+        }
+
+        // Add event listener to the button
+        darkModeToggle.addEventListener('click', toggleDarkMode);
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    </div>
+  </body>
+</html>
